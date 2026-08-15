@@ -1,0 +1,41 @@
+@keyframes pizza-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes burger-animate {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-30px);
+    }
+}
+@keyframes box-rotate {
+    from {
+        transform: translate( -50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate( -50%, -50%) rotate(-360deg);
+    }
+}
+@keyframes Order {
+    20% {
+        left: 0;
+        opacity: 1;
+        transform: translateY(-25px);
+    }
+    50% {
+        left: 0;
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        left: 200%;
+        opacity: 0;
+        transform: translateY(0);
+    }
+}
