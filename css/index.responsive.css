@@ -99,12 +99,37 @@
         width: 100%;
         font-size: 12px;
     }
-     #Team .row .item {
+    #Team .row .item {
         max-width: 280px;
     }
     #Order .container .form-container .item {
         width: 100%;
         padding: 30px 20px;
+    }
+    #Menu .nav.nav-pills {
+        overflow: auto;
+    }
+    #Menu .nav.nav-pills button.nav-link {
+        padding: 15px 16px;
+    }
+    #Menu .nav.nav-pills button.nav-link:after {
+        border: 10px solid transparent;
+        border-bottom-width: 0;
+        border-bottom-color: #fff;
+        top: initial;
+        bottom: 0%;
+        right: initial;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    #Menu .nav.nav-pills button.nav-link.active:after {
+        border-bottom-width: 11px;
+    }
+    #Menu .nav.nav-pills button.nav-link:first-child {
+        border-radius: 5px 0 0 5px;
+    }
+    #Menu .nav.nav-pills button.nav-link:last-child {
+        border-radius: 0 5px 5px 0;
     }
 
 
@@ -176,6 +201,9 @@
     }
     #Testimonials .container p {
         font-size: 16px;
+    }
+    #Menu .nav.nav-pills {
+        justify-content: center;
     }
 }
 @media (min-width: 769px) and (max-width: 1300px) {
@@ -249,6 +277,25 @@
     }
     #Team .row .item .about-chef h3 {
         font-size: 18px;
+    }
+    #Menu .nav.nav-pills button.nav-link:after {
+        border: 10px solid transparent;
+        border-right-width: 0;
+        border-right-color: #fff;
+        top: 50%;
+        bottom: initial;
+        right: 0%;
+        left: initial;
+        transform: translateY(-50%);
+    }
+    #Menu .nav.nav-pills button.nav-link.active:after {
+        border-right-width: 12px;
+    }
+    #Menu .nav.nav-pills button.nav-link:first-child {
+        border-radius: 5px 5px 0 0;
+    }
+    #Menu .nav.nav-pills button.nav-link:last-child {
+        border-radius: 0 0 5px 5px;
     }
 }
 @media (min-width: 1181px) and (max-width: 1300px) {
