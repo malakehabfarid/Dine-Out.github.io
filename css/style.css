@@ -582,26 +582,27 @@ header .carousel-item:nth-of-type(3) .container .content .part2 .icons img {
     width: 75%;
 }
 
-header .carousel-item:nth-of-type(3) .container .content .part2 .icons .icon {
+header .carousel-item:nth-of-type(3) .container .content .part2 .icons .icon1,
+header .carousel-item:nth-of-type(3) .container .content .part2 .icons .icon2 {
     margin-left: 40px;
 }
 
-header .carousel-item:nth-of-type(3) .container .content .part2 .icons {
+header .carousel-item:nth-of-type(3) .container .content .part2 .icons .icon {
     position: relative;
     opacity: 0;
     transform: translateY(20px);
 }
 
-header .carousel-item:nth-of-type(3).active .container .content .part2 .icons {
+header .carousel-item:nth-of-type(3).active .container .content .part2 .icons .icon {
     transform: translateY(0px);
     opacity: 1;
     transition-duration: 1s;
 }
 
-header .carousel-item:nth-of-type(3) .container .content .part2 .icons .icon1 .item {
+header .carousel-item:nth-of-type(3) .container .content .part2 .icons .icon1  {
     transition-delay: 0.3s;
 } 
-header .carousel-item:nth-of-type(3) .container .content .part2 .icons .icon2 .item {
+header .carousel-item:nth-of-type(3) .container .content .part2 .icons .icon2  {
     transition-delay: 0.6s;
 } 
 
