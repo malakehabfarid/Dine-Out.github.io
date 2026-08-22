@@ -306,10 +306,16 @@
     #Menu .nav.nav-pills button.nav-link:last-child {
         border-radius: 0 0 5px 5px;
     }
+    #Menu .tab-content .tab-pane .body .item i {
+        font-size: 9px;
+    }
 }
 @media (min-width: 1181px) and (max-width: 1300px) {
     #Items .row .col img {
         width: 60px;
         height: 60px;
+    }
+    #Menu .tab-content .tab-pane .body .item i {
+        font-size: 11px;
     }
 }
