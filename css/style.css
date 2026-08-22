@@ -343,11 +343,7 @@ header .carousel-item:nth-of-type(2).active .content .part2 {
     align-items: flex-start;
 }
 
-header .carousel-item:nth-of-type(2).active .content .part1 {
-    margin-top: 20px;
-}
-
-header .carousel-item:nth-of-type(2) .content .part1 img {
+header .carousel-item:nth-of-type(2) .content .part1 .image {
     position: relative;
     top: 50px;
     z-index: 2;
@@ -355,9 +351,10 @@ header .carousel-item:nth-of-type(2) .content .part1 img {
     opacity: 0;
     width: 50%;
     transition-duration: 1s;
+    margin: auto;
 }
 
-header .carousel-item:nth-of-type(2).active .content .part1 img {
+header .carousel-item:nth-of-type(2).active .content .part1 .image {
     opacity: 1;
     transform: translateY(0%);
 }
@@ -914,8 +911,12 @@ header #carouselExampleCaptions button:hover i {
     margin: auto;
 }
 
-#Menu .container-fluid .item2 .nav {
-    margin-left: -12px;
+#Menu .container-fluid {
+    overflow: hidden;
+}
+
+#Menu .container-fluid .item2 {
+    padding: 0;
 }
 
 #Menu .nav.nav-pills button.nav-link {
@@ -1030,6 +1031,11 @@ header #carouselExampleCaptions button:hover i {
     opacity: 1;
     left: 0%;
     transition-duration: 1s;
+}
+
+#Menu .tab-content .tab-pane .body .col-6 {
+    display: flex;
+    justify-content: flex-start;
 }
 
 #Menu .tab-content .tab-pane .body .item p {
