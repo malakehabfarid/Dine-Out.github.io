@@ -1045,14 +1045,14 @@ header #carouselExampleCaptions button:hover i {
 #Menu .tab-content .tab-pane .body .item p {
     position: relative;
     opacity: 0;
-    left: -10%;
+    transform: translateX(-200%);
 }
 
 #Menu .tab-content .tab-pane.show .body .item p {
     font-size: 14px;
     font-weight: 300;
     opacity: 1;
-    left: 25%;
+    transform: translateX(0%);
     transition-duration: 1s;
     transition-delay: .5s;
 }
